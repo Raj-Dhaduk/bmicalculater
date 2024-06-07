@@ -1,0 +1,61 @@
+
+.cal{
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to top, #dbdbdb, #bed01b52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.box{
+    
+    color: rgb(42, 32, 32);
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0e0a175c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 23px;
+  }
+  
+  button:hover {
+    background-color: #110207;
+  }
+
+  .bmi{
+    margin-right: 0px;
+  }
+  .bmi p{
+    font-size: 18px;
+    margin-left: 180px;
+  }
+
